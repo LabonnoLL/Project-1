@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      h3{
+        margin-left: 15%;
+      }
+      .m{
+        margin-left: 30%;
+      }
+        .a{
+		 float:left;
+		margin-top: 5%;
+    width: 200px;
+    height: 50px;
+    margin-left: 10%;
+       
+		 }
+		 .b{
+		 float:right;
+		 margin-top: 5%;
+    margin-right: 20%;
+    width: 500px;
+    
+		 }
+     #a{
+      display: none;
+     }
+     #b{
+      display: none;
+     }
+     #c{
+      display: none;
+     }
+    
+    </style>
+</head>
+<body>
+  <div class="m">
+    <h3>About</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  </div>
+  <div class="a" >
+    <img src="nilsagor.jpg">
+  </div>
+  <div class="b">
+    
+        <button type="button" onclick="my()">History</button>
+        <button type="button" onclick="ny()">vision</button>
+        <button type="button" onclick="by()">Goals</button>
+       <div id="a"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est adipisci vel dolorum enim veritatis delectus quam? Minus, odio tempore eligendi earum quas doloremque laborum asperiores ducimus dolorum. Aliquid, aperiam cumque.<br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum in nulla odio nesciunt eum deleniti voluptatibus, fugit corrupti nobis laudantium deserunt perferendis minus, numquam quis! Doloribus magni ut iusto iure.
+            
+        </p>
+      </div>
+
+      <div id="b">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, ad porro fuga reprehenderit praesentium nesciunt eaque! Ut, facere! Fuga saepe repudiandae at corrupti laudantium accusamus harum numquam velit animi? Nulla?</p>
+        <p>labonno</p>
+      </div>
+      <div id="c">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis adipisci facere quaerat accusamus omnis esse, dignissimos quae error laudantium, itaque vitae, provident autem illum totam placeat! Reprehenderit, sequi. Similique, ad?</p>
+      </div>
+    </div>
+      <script>
+        function my(){
+          document.getElementById("a").style.display = 'block';
+          document.getElementById("b").style.display= 'none';
+         document.getElementById("c").style.display= 'none';
+         
+        }
+        
+        function ny(){
+            
+            document.getElementById("b").style.display= 'block';
+            document.getElementById("a").style.display= 'none';
+            document.getElementById("c").style.display= 'none';
+         
+        }
+        
+        function by(){
+            
+            document.getElementById("c").style.display= 'block';
+            document.getElementById("a").style.display= 'none';
+            document.getElementById("b").style.display= 'none';
+         
+        
+        }
+        
+       
+      </script>
+</body>
+</html>
